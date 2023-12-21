@@ -14,6 +14,7 @@ public class BrowserTest {
 		driver.manage().window().maximize();
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
+		driver.navigate().to("https://www.mycontactform.com/samples.php");
 		Thread.sleep(3000);
 		driver.quit();
 	}
